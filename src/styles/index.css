@@ -1,12 +1,24 @@
+html , body {
+    padding: 0;
+    margin: 0;
+}
 
-/* 
+.box-list{
+    margin-top: 100px;
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px blue;
+    padding: 50px 10px 30px 10px;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.btn-close{
+    width: 5px;
+    opacity: 0.1;
+    padding: 0 30px;
+}
 
-*/
+.btn-close:hover{
+    opacity: none;
+}
+
